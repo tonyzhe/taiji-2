@@ -1,0 +1,37 @@
+#div1 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 20px;
+  top: 20px;
+}
+#div1::before {
+  content: "";
+  display: block;
+
+  position: absolute;
+}
+#div1::after {
+  content: "";
+  display: block;
+
+  position: absolute;
+}
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+  #divWrapper {
+    height: 50vh;
+  }
+  #div1 {
+    top: 0;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 50px; */
+  }
+}
+
+/*# sourceMappingURL=index.5952072d.css.map */
